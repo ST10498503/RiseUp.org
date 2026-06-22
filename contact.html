@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us - RiseUp</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UIF-8">
+        <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="RiseUp Youth Empowerment empowers young people through skills development, mentorship and career guidance.">
+
+<meta name="keywords"
+content="youth empowerment, mentorship, skills development, leadership, South Africa">
+
+<meta name="author"
+content="Your Name">
+    </head>
+    <body>
+
+        <!--This is the header section-->
+        <header>
+            <h1>RiseUp Youth Empowerment</h1> <!--The first heading-->
+            <nav>
+                <!---The navigation menu-->
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Programs</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <!--The main content will be displayed here-->
+        <main>
+            <h2>Contact Us</h2>
+            <!--The contact information-->
+            <h3>Contact Information</h3>
+            <p>Email: info@riseup.org</p>
+            <p>Phone: 012 345 8787</p>
+
+            <!--Locations-->
+            <h3>Our Locations</h3>
+
+<p><strong>Pretoria Branch:</strong> 132 Community Street, Pretoria, South Africa</p>
+
+<p><strong>Durban Branch:</strong> 457 Brandly Street, Durban, South Africa</p>
+
+<div id="map"></div>
+           
+
+<h3>Send Us a Message</h3>
+
+<form id="contactForm"
+action="mailto:info@riseup.org"
+method="post"
+enctype="text/plain"
+autocomplete="off">
+
+<label for="contactName">Full Name:</label>
+<input
+type="text"
+id="contactName"
+required
+minlength="3">
+
+<label for="contactEmail">Email Address:</label>
+<input
+type="email"
+id="contactEmail"
+required>
+
+<label for="messageType">Message Type:</label>
+
+<select id="messageType" required>
+
+<option value="">Select</option>
+<option>General Enquiry</option>
+<option>Feedback</option>
+<option>Partnership</option>
+<option>Volunteer Question</option>
+
+</select>
+
+<label for="contactMessage">Message:</label>
+
+<textarea
+id="contactMessage"
+rows="6"
+required
+minlength="20">
+</textarea>
+
+<input type="submit" value="Send Message">
+
+</form>
+
+
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 RiseUp Youth Empowerment</p>
+        </footer>
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+         <script src="javascript/script.js"></script>
+    </body>
+</html>

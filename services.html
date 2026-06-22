@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services - RiseUp</title> <!--This is the title of the organisation-->
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="RiseUp Youth Empowerment empowers young people through skills development, mentorship and career guidance.">
+
+<meta name="keywords"
+content="youth empowerment, mentorship, skills development, leadership, South Africa">
+
+<meta name="author"
+content="Your Name">
+
+    </head>
+    <body>
+
+        <header>
+            <h1>RiseUp Youth Empowerment</h1>
+            <nav> <!--This is the navigation menu-->
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Programs</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main> <!--This will be where all our main content of the section will display-->
+            <h2>Our Programs</h2>
+
+            <!--Search and Sort-->
+            <div class="search-section">
+                <input
+                type="text"
+                id="searchInput"
+                placeholder="Search programs...">
+
+                <select id="sortPrograms">
+                    <option value="">Sort Programs</option>
+                    <option value="az">A-Z</option>
+                    <option value="za">Z-A</option>
+                </select>
+            </div>
+
+              <!--Dynamic Content Section-->
+            <h2>Available Programs</h2>
+            <div id="programContainer"></div>  
+
+        <!--These are the tabs-->
+        <div class="tabs">
+            <button class="tab-btn" data-tab="skills">
+    Skills Development
+</button>
+
+<button class="tab-btn" data-tab="mentorship">
+    Mentorship
+</button>
+
+<button class="tab-btn" data-tab="career">
+    Career Guidance
+</button>
+
+<button class="tab-btn" data-tab="community">
+    Community Workshops
+</button>
+        </div>
+
+            <p>
+                At RiseUp Youth Empowerment, we offer a variety of programs designed to support young people
+                in developing essential life skills, gaining confidence, and preparing for future opportunities.
+            </p>
+
+            <div id="skills" class="tab-content">
+           
+            <h2>Skills Development</h2>
+            <p>We offer training in digital and practical skills.All participannts will be introduced to basic
+                computer literacy, communication skills, and problem solving techniques.</p>
+                <ul>
+                <li>Digital Literacy</li>
+                <li>Computer Skills</li>
+                <li>Coding and web development</li>
+                <li>Entrepreneurship</li>
+                <li>Public speaking</li>
+                <li>Communication Skills</li>
+                <li>Leadership development</li>
+                <li>Problem-solving</li>
+                <li>Financial Literacy</li>
+                <li>CV writing and preperations</li>
+                </ul>
+            </div>
+
+            <div id="mentorship" class="tab-content" style="display:none;">
+
+            <h3>Mentorship Program</h3>
+            <p>Our program will be connecting youth with expierenced mentors which they will provide
+                guidance, support, and motivation. Mentors will help individuals set proper goals and
+                make informed decisions and navigate personal and professional challenges.
+                <li>Build confidence and self-esteem</li>
+                <li>Set realistic goals</li>
+                <li>Improve academic performance</li>
+                <li>Overcome personal challenges</li>
+                <li>Stay motivated and disciplined</li>
+                <li>Improve decision making skills</li>
+            </p>
+            </div>
+
+            <div id="career" class="tab-content" style="display:none;">
+
+            <h3>Career Guidance</h3>
+            <p>Our career guidance will be helping young people prepare for the job market. Explore
+                different career paths and understanding the industry. We provide CV writing, interview preparation,
+                and careerplanning to help participants take the next step towards employment.
+                <li>Career counseling sessions</li>
+                <li>Career exploration worskshops</li>
+                <li>University and college application guidance</li>
+                <li>Job readiness training</li>
+                <li>Networking opportunities</li>
+            </p>
+            </div>
+
+            <div id="community" class="tab-content" style="display:none;">
+
+            <h3>Community Workshops</h3>
+            <p>
+                We host regular workshops within the community that focuses on personal development, leadership,
+                and teamwork. These sessions create a supportive environment where young people can be able to learn
+                from one another and build strong connections to grow more in the industry.
+                <li>Youth Empowerment</li>
+                <li>Technology and digital skills</li>
+                <li>Study techniques</li>
+                <li>Mental health awareness</li>
+            </p>
+            </div>
+
+            <!--Accordion-->
+            <h2>Program Details</h2>
+            <button class="accordion">
+                Skills Dvelopment
+            </button>
+
+            <div class="panel">
+                <p>
+                    Training in coding, digital lieteracy, communication skills,
+                    entrepreneurship and financial literacy.
+                </p>
+            </div>
+
+            <button class="accordion">
+                Mentorship Program
+            </button>
+
+            <div class="panel">
+                <p>
+                    One-on-one mentoring sessions that help youth build confidence
+                    and develop career goals.
+                </p>
+            </div>
+
+            <button class="accordion">
+                Career Guidance
+            </button>
+
+            <div class="panel">
+                <p>
+                Career planning, university application support and interview
+                preparation
+                </p>
+            </div>
+
+            <button class="accordion">
+                Community Workshops
+            </button>
+
+            <div class="panel">
+                <p>
+                    Workshops focused on leadership teamwork,
+                    technology and personal growth
+                </p>
+            </div>
+
+
+        </main>
+
+        <footer> <!--This is where the footer begins-->
+            <p>&copy; 2026 RiseUp Youth Empowerment</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+         <script src="script.js"></script>
+    </body>
+</html>
