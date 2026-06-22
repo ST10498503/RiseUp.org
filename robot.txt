@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://st10498503.github.io/RiseUp.org/
